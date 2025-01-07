@@ -25,13 +25,13 @@ export default function Home() {
             className="fade-in-div text-center z-10 relative items-center justify-center flex flex-col"
             data-aos="fade-down"
           >
-            <h1 className="md:text-[4.5rem] text-5xl font-bold md:w-[45rem] mb-6">
-              Jose G. Durrego, Auténtico Mariachi
+            <h1 className="md:text-[4.5rem] text-[#fff] text-5xl font-bold md:w-[45rem] mb-6">
+              {/* Jose G. Durrego,  */}Auténtico Mariachi
             </h1>
-            <h2 className="md:text-[1.5rem] text-xl mb-8">
+            <h2 className="md:text-[1.5rem] text-[#fff] text-xl mb-8">
               Lleva la esencia y pasión del mariachi mexicano a cada celebración
             </h2>
-            <button className="bg-[#8b0000] px-8 text-sm rounded-md h-11 hover:bg-[#5f0d0d] transition-colors flex items-center justify-center gap-3">
+            <button className="bg-[#8b0000] text-[#fff] px-8 text-sm rounded-md h-11 hover:bg-[#5f0d0d] transition-colors flex items-center justify-center gap-3">
               <PhoneIcon stroke="#fff" />
               {`Llama Ahora: (123) 456-7890`}
             </button>
